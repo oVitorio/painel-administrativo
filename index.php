@@ -7,24 +7,12 @@
 	</head>
 
 	<body>
-		<header class="topo"> 
-            <figure class="logo">
-                <img src="img/intro_bg.png" alt="PontoCOM" />
-            </figure>
-            <hgroup>
-                <h1>PontoCOM</h1> 
-                <h2>Desenvolvimento e Manutenção</h2>
-            </hgroup>
-        </header>
-        <nav>
-        	<ul>
-            	<li><a href="#"> Home </a></li>
-                <li><a href="#"> Portifólio </a></li>
-                <li><a href="#"> Clientes </a></li>
-                <li><a href="#"> Quem Somos? </a></li>
-                <li><a href="#"> Contato</a></li>
-            </ul>
-        </nav>
+        <?php
+        
+            include_once"include/header.php";
+        
+        
+        ?>   
         <section id="intro">
         	<hgroup>
             	<h1> PontoCANAL </h1>
@@ -94,30 +82,14 @@
             	<address> Por: <a href="contato.html">Emerson Carvalho</a>	</address>
             </footer> 
         </article>
-        <aside>
-        	<section>
-            	<h1> Sites Relacionados </h1>
-                <ul>
-                	<li><a href="#">Guia Ouro Fino </a> </li>
-                    <li><a href="#">PontoCOM </a> </li>
-                    <li><a href="#">Difusora Ouro Fino </a> </li>
-                </ul>
-            </section>
-            <section>
-            	<h1> Artigos Arquivados </h1>
-                <ul>
-                	<li><a href="#"> Agosto 2013</a> </li>
-                    <li><a href="#"> Julho 2013</a> </li>
-                    <li><a href="#"> Junho 2013</a> </li>
-                </ul>
-            </section>
-        </aside>
+     
+        <?php
 
-        <footer class="rodape">
-
-                <p> Todos os direitos preservados a <strong>Nome da Empresa</strong> &copy;2014</p>
-               
-        </footer>  
-        </footer>     
+            include_once"include/barralateral.php";
+        
+            include_once"include/footer.php";
+        
+        ?>
+           
 	</body>
 	</html>
